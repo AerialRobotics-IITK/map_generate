@@ -6,7 +6,7 @@ if __name__ == "__main__":
     api_key = "your-api-key-goes-here"
     url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
     center = "26.519608,80.232266"
-    pin_style = "71"
+    pin_style = "47"
     zoom = "19"
     size = "2000,1500"
     final_url = url + center + "/" + zoom + "?mapSize="+size 
