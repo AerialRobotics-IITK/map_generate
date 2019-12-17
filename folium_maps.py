@@ -14,6 +14,6 @@ if __name__ == "__main__":
         lat,lon = list_words[i].split(' ')
         print(lat)
         print(lon)
-        folium.Marker([lat, lon], popup = "Box "+str(i)).add_to(map) 
+        folium.Marker([lat, lon], popup = lat + ", " + lon).add_to(map) 
     
     map.save(os.path.expanduser('~')+'/.ros/router/map.html')
